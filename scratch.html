@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VibeCode School - Welcome, Gunner!</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      background: linear-gradient(135deg, #6b48ff 0%, #a239ca 50%, #ff6ec7 100%);
+      font-family: 'Poppins', system-ui, sans-serif;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .container {
+      text-align: center;
+      max-width: 700px;
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(10px);
+      border-radius: 24px;
+      padding: 60px 40px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+    }
+
+    h1 {
+      font-size: 3.8rem;
+      font-weight: 800;
+      margin-bottom: 1.5rem;
+      line-height: 1.1;
+      background: linear-gradient(90deg, #ffffff, #e0c3fc);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    p {
+      font-size: 1.3rem;
+      line-height: 1.7;
+      margin-bottom: 3rem;
+      opacity: 0.95;
+      max-width: 580px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .btn {
+      display: inline-block;
+      font-size: 1.4rem;
+      font-weight: 700;
+      padding: 18px 60px;
+      background: linear-gradient(90deg, #ff6ec7, #ff8fb3);
+      color: white;
+      border: none;
+      border-radius: 999px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 10px 30px rgba(255, 110, 199, 0.4);
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      transform: translateY(-6px) scale(1.06);
+      box-shadow: 0 18px 40px rgba(255, 110, 199, 0.55);
+      background: linear-gradient(90deg, #ff8fb3, #ff6ec7);
+    }
+
+    .btn:active {
+      transform: translateY(-2px) scale(1.02);
+    }
+
+    @media (max-width: 600px) {
+      h1 { font-size: 2.8rem; }
+      .container { padding: 50px 25px; }
+      .btn { padding: 16px 50px; font-size: 1.25rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Welcome to VibeCode School, Gunner!</h1>
+
+    <p>
+      Vibe coding is all about creating with flow — letting the music, colors, and energy guide your fingers across the keyboard.<br>
+      No pressure, no perfect code — just pure creative momentum and good tunes.<br>
+      Here, we build cool stuff while feeling the vibe. ✨
+    </p>
+
+    <button class="btn" onclick="startVibing()">Start Vibe Coding</button>
+  </div>
+
+  <script>
+    function startVibing() {
+      alert("Let’s vibe some code! 🚀");
+    }
+  </script>
+
+</body>
+</html>
